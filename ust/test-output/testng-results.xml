@@ -2,84 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T23:42:44 BDT" name="Default suite" finished-at="2024-04-25T23:43:43 BDT" duration-ms="58371">
+  <suite started-at="2024-04-27T07:20:14Z" name="GroundFloor v2 Test" finished-at="2024-04-27T07:20:57Z" duration-ms="42760">
     <groups>
     </groups>
-    <test started-at="2024-04-25T23:42:44 BDT" name="Default test" finished-at="2024-04-25T23:43:43 BDT" duration-ms="58371">
+    <test started-at="2024-04-27T07:20:14Z" name="Test" finished-at="2024-04-27T07:20:57Z" duration-ms="42760">
       <class name="com.ad.tests.LoginTest">
-        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:com.ad.tests.LoginTest@19e4653c]" started-at="2024-04-25T23:42:39 BDT" name="StartBrowser" finished-at="2024-04-25T23:42:44 BDT" duration-ms="4896" status="PASS">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:com.ad.tests.LoginTest@61d6015a]" started-at="2024-04-27T13:20:10Z" name="StartBrowser" finished-at="2024-04-27T13:20:14Z" duration-ms="4238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method is-config="true" signature="start()[pri:0, instance:com.ad.tests.LoginTest@19e4653c]" started-at="2024-04-25T23:42:44 BDT" name="start" finished-at="2024-04-25T23:42:52 BDT" duration-ms="7855" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.ad.tests.LoginTest@61d6015a]" started-at="2024-04-27T13:20:14Z" name="start" finished-at="2024-04-27T13:20:31Z" duration-ms="17729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="loginTest()[pri:0, instance:com.ad.tests.LoginTest@19e4653c]" started-at="2024-04-25T23:42:52 BDT" name="loginTest" finished-at="2024-04-25T23:43:43 BDT" duration-ms="50490" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.ad.tests.LoginTest@61d6015a]" started-at="2024-04-27T13:20:31Z" name="loginTest" finished-at="2024-04-27T13:20:56Z" duration-ms="24680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.ad.tests.LoginTest@19e4653c]" started-at="2024-04-25T23:43:43 BDT" name="close" finished-at="2024-04-25T23:43:43 BDT" duration-ms="145" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [93b1497d-f9af-4625-b3b9-10b4852ed48d, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:37152, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20868, moz:profile: C:\Users\aniks\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37152/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 93b1497d-f9af-4625-b3b9-10b4852ed48d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [93b1497d-f9af-4625-b3b9-10b4852ed48d, close {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:37152, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20868, moz:profile: C:\Users\aniks\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37152/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 93b1497d-f9af-4625-b3b9-10b4852ed48d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:406)
-at com.ad.basedriver.BaseDriver.close(BaseDriver.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="report()[pri:0, instance:com.ad.tests.LoginTest@61d6015a]" started-at="2024-04-27T13:20:56Z" name="report" finished-at="2024-04-27T13:20:57Z" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.ad.tests.LoginTest@61d6015a]" started-at="2024-04-27T13:20:57Z" name="close" finished-at="2024-04-27T13:20:57Z" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.ad.tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- GroundFloor v2 Test -->
 </testng-results>
